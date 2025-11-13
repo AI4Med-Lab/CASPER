@@ -1,0 +1,21 @@
+{
+    "result_path": "/home/sukrit/Desktop/AmitResearch/code/modelResults/sampled_centroid/ImputerResults_starMAP",
+    "datasert_name": "starMAP", 
+    "data_path": "/home/sukrit/Desktop/AmitResearch/data/processedData",
+    "idx_path": "/home/sukrit/Desktop/AmitResearch/code/dataset_indices/Dataset_Indices",
+    "epochs": 500,
+    "rand_seed": 0,
+    "use_hvg_subset": true,
+    "n_top_hvg": 20000, 
+    "use_hvg": true, 
+    "early_stop_patience": 10,
+    "batch_size": 1024,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-5,
+    "emb_dim": 256,
+    "n_heads": 2,
+    "dropout": 0.1,
+    "device": "cuda",
+    "n_pcs": 50
+}
+
